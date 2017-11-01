@@ -6,12 +6,10 @@ class App < Sinatra::Base
   end
 
   get '/hometown' do
-    resp.status = 200
     "My hometown is "
   end
 
   get '/favorite-song' do
-    resp.status = 200
     "My favorite song is "
   end
 end
